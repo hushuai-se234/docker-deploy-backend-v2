@@ -10,6 +10,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 public class DeploymentApplication {
 
     public static void main(String[] args) {
+        // DeepSource security scan trigger
         SpringApplication.run(DeploymentApplication.class, args);
     }
 
