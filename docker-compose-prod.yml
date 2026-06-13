@@ -1,0 +1,7 @@
+services:
+  backend-v2:
+    image: hujiashuai6/234-deploylab-backend:v2
+    pull_policy: always
+    ports:
+      - "8083:8080"
+    restart: unless-stopped
